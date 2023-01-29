@@ -20,7 +20,18 @@ cd ../
 
 mkdir Phishing/
 cd Phishing
-https://github.com/gophish/gophish.git
+git clone --depth=1 https://github.com/gophish/gophish.git
+git clone --depth=1 https://github.com/bolster-inc/Phishing-Kit-Deny-List-Analysis.git
+git clone --depth=1 https://github.com/Raikia/FiercePhish.git
+git clone --depth=1 https://github.com/An0nUD4Y/Evilginx2-Phishlets.git
+git clone --depth=1 https://github.com/kgretzky/evilginx2.git
+cd ../
+
+mkdir Password-Sprays/
+cd Password-Sprays
+git clone --depth=1 https://github.com/nodauf/GoMapEnum.git
+git clone --depth=1 https://github.com/knavesec/CredMaster.git 
+git clone --depth=1 https://github.com/busterb/msmailprobe.git
 cd ../
 
 mkdir WebAppTools/
@@ -30,6 +41,21 @@ mkdir XSS/
 cd XSS
 git clone --depth=1 https://github.com/s0md3v/XSStrike.git
 git clone --depth=1 https://github.com/hahwul/dalfox.git
+cd ../
+
+mkdir JWT/
+cd JWT
+git clone --depth=1 https://github.com/ticarpi/jwt_tool.git
+cd ../
+
+mkdir File-Upload/
+cd File-Upload
+git clone --depth=1 https://github.com/almandin/fuxploider.git
+cd ../
+
+mkdir Domain-Takeover/
+cd Domain-Takeover
+git clone --depth=1 https://github.com/punk-security/dnsReaper.git
 cd ../
 
 mkdir API/

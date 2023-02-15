@@ -41,6 +41,7 @@ mkdir XSS/
 cd XSS
 git clone --depth=1 https://github.com/s0md3v/XSStrike.git
 git clone --depth=1 https://github.com/hahwul/dalfox.git
+git clone --depth=1 https://github.com/chenjj/CORScanner.git
 cd ../
 
 mkdir JWT/

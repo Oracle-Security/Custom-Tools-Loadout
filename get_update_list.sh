@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Find all git repositories recursively from the working directory
+current_dir=$(pwd)
+
 for repo in $(find . -name ".git" -type d); do
-    # Extract the path to the git repository by removing the ".git" suffix
-    repo_path=$(dirname $repo)
-    # Print the command to pull the repository
-    echo "cd $repo_path && git pull && cd .."
+    repo_path=$(dirname "$repo")
+    cd "$repo_path" && git -C "$repo_path" pull
+    cd "$current_dir"
 done

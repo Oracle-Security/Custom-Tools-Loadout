@@ -16,6 +16,7 @@ cd Mass-Targetting
 git clone --depth=1 https://github.com/knownsec/pocsuite3.git
 git clone --depth=1 https://github.com/NullArray/AutoSploit.git
 git clone --depth=1 https://github.com/v3n0m-Scanner/V3n0M-Scanner.git
+git clone --depth=1 https://github.com/s0md3v/Silver
 cd ../
 
 mkdir Phishing/
@@ -88,6 +89,7 @@ git clone --depth=1 https://github.com/epinna/tplmap.git
 git clone --depth=1 https://github.com/hvqzao/liffy.git
 git clone --depth=1 https://github.com/commixproject/commix.git
 git clone --depth=1 https://github.com/wh1t3p1g/ysomap.git
+git clone --depth=1 https://github.com/s0md3v/Parth.git
 cd ../
 
 mkdir GraphQL/
@@ -115,6 +117,7 @@ cd ../
 mkdir Enumeration/
 cd Enumeration
 git clone --depth=1 https://github.com/OJ/gobuster.git
+git clone --depth=1 https://github.com/s0md3v/Arjun.git
 cd ../
 
 mkdir Shells/

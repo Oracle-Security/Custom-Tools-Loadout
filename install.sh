@@ -35,6 +35,11 @@ git clone --depth=1 https://github.com/knavesec/CredMaster.git
 git clone --depth=1 https://github.com/busterb/msmailprobe.git
 cd ../
 
+mkdir Evasion/
+cd Evasion
+git clone --depth=1 https://github.com/TheWover/donut.git
+cd ../
+
 mkdir WebAppTools/
 cd WebAppTools
 

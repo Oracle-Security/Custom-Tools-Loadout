@@ -90,6 +90,7 @@ cd ../
 mkdir PHP-Exploitation/
 cd PHP-Exploitation
 git clone --depth=1 https://github.com/ambionics/phpggc.git
+git clone --depth=1 https://github.com/synacktiv/php_filter_chain_generator.git
 cd ../
 
 mkdir Injection/

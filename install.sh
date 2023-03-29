@@ -40,6 +40,15 @@ cd Evasion
 git clone --depth=1 https://github.com/TheWover/donut.git
 cd ../
 
+mkdir Host-Tools/
+cd Host-Tools
+mkdir Git-Tools/
+cd Git-Tools
+git clone --depth=1 https://github.com/internetwache/GitTools.git
+cd ../
+
+cd ../
+
 mkdir WebAppTools/
 cd WebAppTools
 

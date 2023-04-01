@@ -56,7 +56,7 @@ cd Git-Tools
 git clone --depth=1 https://github.com/internetwache/GitTools.git
 cd ../
 git clone --depth=1 https://github.com/matterpreter/OffensiveCSharp.git
-mkdir Privesc-Vectors/
+mkdir Privesc-Vectors
 cd Privesc-Vectors
 git clone --depth=1 https://github.com/carlospolop/PEASS-ng.git
 git clone --depth=1 https://github.com/PowerShellMafia/PowerSploit.git
@@ -65,6 +65,7 @@ git clone --depth=1 https://github.com/GhostPack/Seatbelt.git
 cd ../
 
 mkdir Active-Directory
+cd Active-Directory
 git clone --depth=1 https://github.com/PowerShellMafia/PowerSploit.git
 git clone --depth=1 https://github.com/GhostPack/Certify.git
 git clone --depth=1 https://github.com/GhostPack/Rubeus.git

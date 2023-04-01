@@ -35,6 +35,11 @@ git clone --depth=1 https://github.com/knavesec/CredMaster.git
 git clone --depth=1 https://github.com/busterb/msmailprobe.git
 cd ../
 
+mkdir Cloud/
+cd Cloud
+
+cd ../
+
 
 mkdir Host-Tools/
 cd Host-Tools

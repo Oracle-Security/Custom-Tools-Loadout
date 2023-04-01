@@ -42,7 +42,7 @@ git clone --depth=1 https://github.com/NetSPI/MicroBurst.git
 cd ../
 
 mkdir AWS
-cd ../
+cd AWS
 git clone --depth=1 https://github.com/salesforce/cloudsplaining.git
 git clone --depth=1 https://github.com/nccgroup/ScoutSuite.git
 cd ../

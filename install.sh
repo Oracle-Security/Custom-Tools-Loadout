@@ -63,6 +63,10 @@ git clone --depth=1 https://github.com/GhostPack/Rubeus.git
 git clone --depth=1 https://github.com/GhostPack/PSPKIAudit.git
 git clone --depth=1 https://github.com/GhostPack/ForgeCert.git
 git clone --depth=1 https://github.com/JoelGMSec/Invoke-Stealth.git
+git clone --depth=1 https://github.com/FSecureLABS/SharpGPOAbuse.git
+git clone --depth=1 https://github.com/lkarlslund/Adalanche.git
+wget https://github.com/lkarlslund/Adalanche/releases/download/v2022.10.31/adalanche-windows-amd64-v2022.10.31.exe
+wget https://github.com/lkarlslund/Adalanche/releases/download/v2022.10.31/adalanche-linux-amd64-v2022.10.31
 cd ../
 
 mkdir Red-Teaming/

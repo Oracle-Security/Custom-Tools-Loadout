@@ -1,4 +1,3 @@
-#!/bin/bash
 mkdir Generic-Repositories
 cd Generic-Repositories
 git clone --depth=1 https://github.com/swisskyrepo/PayloadsAllTheThings.git

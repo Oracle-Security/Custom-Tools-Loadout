@@ -37,6 +37,7 @@ cd ../
 mkdir Cloud
 cd Cloud
 mkdir Azure
+cd Azure
 git clone --depth=1 https://github.com/NetSPI/MicroBurst.git
 cd ../
 

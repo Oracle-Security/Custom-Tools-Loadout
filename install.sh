@@ -37,9 +37,17 @@ cd ../
 
 mkdir Cloud/
 cd Cloud
-
+mkdir Azure
+git clone --depth=1 https://github.com/NetSPI/MicroBurst.git
 cd ../
 
+mkdir AWS
+cd ../
+git clone --depth=1 https://github.com/salesforce/cloudsplaining.git
+git clone --depth=1 https://github.com/nccgroup/ScoutSuite.git
+cd ../
+
+cd ../
 
 mkdir Host-Tools/
 cd Host-Tools

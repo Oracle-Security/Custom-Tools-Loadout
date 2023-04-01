@@ -16,7 +16,7 @@ cd Mass-Targetting
 git clone --depth=1 https://github.com/knownsec/pocsuite3.git
 git clone --depth=1 https://github.com/NullArray/AutoSploit.git
 git clone --depth=1 https://github.com/v3n0m-Scanner/V3n0M-Scanner.git
-git clone --depth=1 https://github.com/s0md3v/Silver
+git clone --depth=1 https://github.com/s0md3v/Silver.git
 cd ../
 
 mkdir Phishing/
@@ -35,10 +35,6 @@ git clone --depth=1 https://github.com/knavesec/CredMaster.git
 git clone --depth=1 https://github.com/busterb/msmailprobe.git
 cd ../
 
-mkdir Evasion/
-cd Evasion
-git clone --depth=1 https://github.com/TheWover/donut.git
-cd ../
 
 mkdir Host-Tools/
 cd Host-Tools
@@ -61,6 +57,51 @@ git clone --depth=1 https://github.com/GhostPack/Certify.git
 git clone --depth=1 https://github.com/GhostPack/Rubeus.git
 git clone --depth=1 https://github.com/GhostPack/PSPKIAudit.git
 git clone --depth=1 https://github.com/GhostPack/ForgeCert.git
+git clone --depth=1 https://github.com/JoelGMSec/Invoke-Stealth.git
+cd ../
+
+mkdir Red-Teaming/
+cd Red-Teaming
+git clone --depth=1 https://github.com/PowerShellMafia/PowerSploit.git
+mkdir Sliver/
+cd Sliver
+https://github.com/BishopFox/sliver.git
+#We'll also grab the binary
+wget https://github.com/BishopFox/sliver/releases/download/v1.5.33/sliver-server_linux
+wget https://github.com/BishopFox/sliver/releases/download/v1.5.33/sliver-client_linux
+#Make sure to download all the Armories
+cd ../
+mkdir Redirection/
+cd Redirection
+git clone --depth=1 https://github.com/wikiZ/RedGuard.git
+cd ../
+cd ../
+
+mkdir Exfiltration
+cd Exfiltration/
+wget https://github.com/SnaffCon/Snaffler/releases/download/1.0.96/Snaffler.exe
+git clone --depth=1 https://github.com/Arno0x/DNSExfiltrator.git
+cd ../
+mkdir Persistence
+cd Persistence/
+git clone --depth=1 https://github.com/mandiant/SharPersist.git
+cd ../
+
+mkdir Payload-Development
+cd Payload-Development
+go get github.com/fatih/color
+go get github.com/KyleBanks/XOREncryption/Go
+git clone --depth=1 https://github.com/BC-SECURITY/Offensive-VBA-and-XLS-Entanglement.git
+git clone --depth=1 https://github.com/outflanknl/EvilClippy.git
+git clone --depth=1 https://github.com/optiv/Ivy.git
+git clone --depth=1 https://github.com/sevagas/macro_pack.git
+git clone --depth=1 https://github.com/9emin1/charlotte.git
+wget https://gist.githubusercontent.com/vivami/03780dd512fec22f3a2bae49f9023384/raw/d4c75d0a13cadee9c7fa103135ac6acf71392447/Empire_via_rundll-powershdll.vba
+cd ../
+
+mkdir Evasion/
+cd Evasion
+git clone --depth=1 https://github.com/TheWover/donut.git
 cd ../
 
 cd ../

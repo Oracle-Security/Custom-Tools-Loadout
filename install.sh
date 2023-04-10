@@ -120,6 +120,7 @@ cd ../
 mkdir Evasion
 cd Evasion
 git clone --depth=1 https://github.com/TheWover/donut.git
+git clone --depth=1 https://github.com/optiv/Mangle.git
 cd ../
 
 cd ../

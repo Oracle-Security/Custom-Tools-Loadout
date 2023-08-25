@@ -117,12 +117,27 @@ git clone --depth=1 https://github.com/9emin1/charlotte.git
 wget https://gist.githubusercontent.com/vivami/03780dd512fec22f3a2bae49f9023384/raw/d4c75d0a13cadee9c7fa103135ac6acf71392447/Empire_via_rundll-powershdll.vba
 cd ../
 
+mkdir EDR
+git clone --depth=1 https://github.com/zer0condition/mhydeath.git
+git clone --depth=1 https://github.com/ZeroMemoryEx/Terminator.git
+git clone --depth=1 https://github.com/kkent030315/evil-mhyprot-cli.git
+cd ../
+
 mkdir Evasion
 cd Evasion
 git clone --depth=1 https://github.com/TheWover/donut.git
 git clone --depth=1 https://github.com/optiv/Mangle.git
 cd ../
 
+cd ../
+mkdir ServiceTools
+cd ServiceTools
+mkdir SSH
+cd SSH
+git clone --depth=1 https://github.com/jtesta/ssh-audit.git
+git clone --depth=1 https://github.com/jtesta/ssh-mitm.git
+cd ../
+cd ../
 cd ../
 
 mkdir WebAppTools

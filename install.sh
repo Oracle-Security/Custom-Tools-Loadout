@@ -74,6 +74,7 @@ git clone --depth=1 https://github.com/GhostPack/ForgeCert.git
 git clone --depth=1 https://github.com/JoelGMSec/Invoke-Stealth.git
 git clone --depth=1 https://github.com/FSecureLABS/SharpGPOAbuse.git
 git clone --depth=1 https://github.com/lkarlslund/Adalanche.git
+git clone --depth=1 https://github.com/Mazars-Tech/AD_Miner.git
 wget https://github.com/lkarlslund/Adalanche/releases/download/v2022.10.31/adalanche-windows-amd64-v2022.10.31.exe
 wget https://github.com/lkarlslund/Adalanche/releases/download/v2022.10.31/adalanche-linux-amd64-v2022.10.31
 cd ../
@@ -148,6 +149,12 @@ cd XSS
 git clone --depth=1 https://github.com/s0md3v/XSStrike.git
 git clone --depth=1 https://github.com/hahwul/dalfox.git
 git clone --depth=1 https://github.com/chenjj/CORScanner.git
+cd ../
+
+mkdir aspnet-exploitation
+cd aspnet-exploitation
+git clone https://github.com/blacklanternsecurity/badsecrets
+git clone https://github.com/NotSoSecure/Blacklist3r
 cd ../
 
 mkdir JWT
